@@ -1,0 +1,38 @@
+div.inputWrapper
+{
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+label.inputLabel
+{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000;
+}
+
+.input
+{
+    margin-right: 18px;
+}
+
+p.message
+{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #999;
+}
